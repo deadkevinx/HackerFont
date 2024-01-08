@@ -1,0 +1,59 @@
+
+body {
+    background-color: #000;
+    color: #00ff00;
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  
+  .paragraph-box {
+    width: 80%;
+    background-color: #000;
+    padding: 20px;
+    border: 2px solid #00ff00;
+  }
+  
+  .line p {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logos img {
+    width: 50px; /* Ajusta el tamaño según sea necesario */
+    height: 50px;
+}
+
+.logos p {
+    display: flex;
+    margin-top: 5px;
+    font-size: 16px;
+    color: #fff; /* Cambia el color del texto según sea necesario */
+}
+.tiktok,
+.youtube{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    margin: 0 20px;
+}
